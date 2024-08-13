@@ -1,0 +1,21 @@
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: rgba(230, 102, 28, 0.5);
+  opacity: 1;
+  margin: 0 5px 0 5px;
+}
+
+.swiper-pagination-bullet-active {
+  background: #fff;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #28408c;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 24px;
+}
