@@ -1,5 +1,4 @@
-export const fbPage =
-  "https://www.facebook.com/profile.php?id=100003818689839&mibextid=kFxxJD";
+export const fbPage = "https://www.facebook.com/futuresolutionsdev";
 
 export const CardsArray = [
   {
