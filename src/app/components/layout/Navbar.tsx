@@ -41,7 +41,7 @@ export default function Navbar() {
         <nav className="hidden md:flex gap-10 capitalize">
           <SectionLink to="home">{trans("home")}</SectionLink>
           <SectionLink to="ourServices">{trans("Our Services")}</SectionLink>
-          <SectionLink to="about">{trans("about")}</SectionLink>
+          {/* <SectionLink to="about">{trans("about")}</SectionLink> */}
           {ProjectArray.length > 0 && (
             <SectionLink to="projects">{trans("projects")}</SectionLink>
           )}

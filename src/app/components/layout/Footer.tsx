@@ -9,7 +9,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer>
-      <section className="bg-white">
+      {/* <section className="bg-white">
         <section className="py-10 mx-1 container max-w-6xl lg:mx-auto bg-white flex flex-wrap justify-center  sm:justify-between items-center gap-10">
           {FooterArray.map((link, index) => (
             <div
@@ -30,7 +30,7 @@ export default function Footer() {
             </div>
           ))}
         </section>
-      </section>
+      </section> */}
       <section>
         <section className="py-2 container max-w-6xl mx-auto capitalize text-center">
           {trans("all right reserved")?.replace("{YY}", new Date().getFullYear())}

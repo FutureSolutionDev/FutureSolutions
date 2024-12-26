@@ -28,38 +28,14 @@ export const CardsArray = [
   },
 ];
 export const TestimoArray = [
-  {
-    id: 1,
-    img: "/images/testimo1.svg",
-    name: "Savannah Nguyen",
-    company: "Apple",
-    content:
-      "Amazing session! Daniel helped me tremendously by sharing lots of practical tips and suggestions",
-  },
-  {
-    id: 2,
-    img: "/images/testimo2.svg",
-    name: "Darrell Steward",
-    company: "Gillette",
-    content:
-      "Peter was amazing! He shared wonderful tips, made the most out of our call, and was very attentive",
-  },
-  {
-    id: 3,
-    img: "/images/testimo1.svg",
-    name: "Savannah Nguyen",
-    company: "Apple",
-    content:
-      "Amazing session! Daniel helped me tremendously by sharing lots of practical tips and suggestions",
-  },
-  {
-    id: 4,
-    img: "/images/testimo3.svg",
-    name: "Wade Warrer",
-    company: "The Walt Disney Company",
-    content:
-      "Thank you so much - I can't believe how much we packed into a short conversation! Michael is so friendly",
-  },
+  // {
+  //   id: 1,
+  //   img: "/images/testimo1.svg",
+  //   name: "Savannah Nguyen",
+  //   company: "Apple",
+  //   content:
+  //     "Amazing session! Daniel helped me tremendously by sharing lots of practical tips and suggestions",
+  // },
 ];
 
 export const FeatureArray = [
@@ -67,22 +43,44 @@ export const FeatureArray = [
     id: 1,
     className: "bg-[#28408c] text-white",
     imgclassName: "bg-[#c5e2f2]",
-    h3: "Cool Feature 1",
-    p: "Things on a very small scale behave like nothing that you have any direct experience",
+    h3: "Development Services",
+    p: `
+      Custom Software Development: Tailored solutions to meet specific client requirements.\n
+      Mobile App Development: Building iOS and Android applications. \n
+      Web Development: Creating responsive and dynamic websites or web applications.\n
+      SaaS Development: Software as a Service solutions for subscription-based platforms.
+    `,
   },
   {
-    id: 1,
+    id: 2,
     className: "bg-[#c4e4b9]",
     imgclassName: "bg-[#23856d]",
-    h3: "Cool Feature 1",
-    p: "Things on a very small scale behave like nothing that you have any direct experience",
+    h3: "Product Enhancements",
+    p: `
+      UI/UX Design: Designing intuitive and user-friendly interfaces.\n
+      API Development & Integration: Creating or integrating APIs for enhanced connectivity.\n
+      Performance Optimization: Improving software speed and scalability.\n
+      Legacy System Modernization: Upgrading outdated systems to current technology standards.
+    `,
   },
   {
-    id: 1,
-    className: "bg-[#de956c] text-white",
+    id: 3,
+    className: "bg-[#28408c] text-white",
     imgclassName: "bg-[#ec5c2e]",
-    h3: "Cool Feature 1",
-    p: "Things on a very small scale behave like nothing that you have any direct experience",
+    h3: "Marketing Solutions",
+    p: `
+    SEO Services: Optimizing software products or websites for search engines.\n
+    Data Analytics: Providing insights and reports for better decision-making.\n
+    `,
+  },
+  {
+    id: 4,
+    className: "bg-[#c4e4b9]",
+    imgclassName: "bg-[#23856d]",
+    h3: "Business Solutions",
+    p: `
+      CRM Systems: Customer Relationship Management tools for better client interaction.\n
+    `,
   },
 ];
 
@@ -240,4 +238,4 @@ export const MetaConfig = {
   referrer: "origin",
   manifest: "/manifest.json",
   classification: "SaaS",
-}
+};
