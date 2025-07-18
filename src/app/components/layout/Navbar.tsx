@@ -17,8 +17,7 @@ export default function Navbar() {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-  console.log("Nav Bar");
-  
+
   return (
     <section className="w-full fixed top-0 left-1/2 transform -translate-x-1/2 py-2 bg-[#e1f4ff] z-50">
       <div
