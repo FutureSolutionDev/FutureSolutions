@@ -3,7 +3,7 @@ name: Deploy Static Site to VPS
 on:
   push:
     branches:
-      - main  # غيّرها لو بتستخدم master
+      - master 
 
 jobs:
   build-and-deploy:
