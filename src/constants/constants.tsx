@@ -222,7 +222,7 @@ export const MetaConfig = {
     siteName: "Future Solutions",
     images: [
       {
-        url: "/images/Icons/512.png",
+        url: "/Icons/512.png",
       },
       {
         url: "/favicon.png",
