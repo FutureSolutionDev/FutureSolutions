@@ -24,6 +24,9 @@ jobs:
       - name: 🔨 Build
         run: |
           yarn build
+        
+      - name: 🪪 Save commit SHA
+        run: echo "${{ github.sha }}" > out/commit.txt
 
       - name: 🚀 Deploy via SCP
         uses: appleboy/scp-action@master
