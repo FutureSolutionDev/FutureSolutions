@@ -17,7 +17,7 @@ export default function ContactSection() {
         </h2>
         <div className=" flex justify-center gap-20 sm:justify-between w-full items-center">
           <Image
-            src={"/images/fslogo.png"}
+            src={"/images/Icons/144.png"}
             alt=""
             height={50}
             width={50}

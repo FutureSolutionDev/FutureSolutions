@@ -25,7 +25,7 @@ export default function Navbar() {
       >
         <div className="flex items-center gap-3 px-1">
           <Image
-            src={"/images/fslogo.png"}
+            src={"/images/Icons/144.png"}
             alt=""
             height={50}
             width={50}

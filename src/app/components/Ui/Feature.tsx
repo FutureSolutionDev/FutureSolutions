@@ -4,11 +4,9 @@ type FeatureProps = {
   className?: string;
   h3?: string;
   p?: string;
-  imgclassName?: string;
 };
 export default function Feature({
   className,
-  imgclassName,
   h3,
   p,
 }: FeatureProps) {

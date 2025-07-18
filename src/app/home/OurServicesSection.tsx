@@ -34,7 +34,6 @@ export default function OurServicesSection() {
               h3={trans(feature.h3)}
               p={trans(feature.p)}
               className={feature.className}
-              imgclassName={feature.imgclassName}
             />
           ))}
         </motion.div>

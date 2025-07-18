@@ -41,7 +41,6 @@ export const FeatureArray = [
   {
     id: 1,
     className: "bg-[#28408c] text-white",
-    imgclassName: "bg-[#c5e2f2]",
     h3: "Development Services",
     p: `
       Custom Software Development: Tailored solutions to meet specific client requirements.\n
@@ -53,7 +52,6 @@ export const FeatureArray = [
   {
     id: 2,
     className: "bg-[#c4e4b9]",
-    imgclassName: "bg-[#23856d]",
     h3: "Product Enhancements",
     p: `
       UI/UX Design: Designing intuitive and user-friendly interfaces.\n
@@ -65,7 +63,6 @@ export const FeatureArray = [
   {
     id: 3,
     className: "bg-[#28408c] text-white",
-    imgclassName: "bg-[#ec5c2e]",
     h3: "Marketing Solutions",
     p: `
     SEO Services: Optimizing software products or websites for search engines.\n
@@ -75,7 +72,6 @@ export const FeatureArray = [
   {
     id: 4,
     className: "bg-[#c4e4b9]",
-    imgclassName: "bg-[#23856d]",
     h3: "Business Solutions",
     p: `
       CRM Systems: Customer Relationship Management tools for better client interaction.\n
@@ -211,7 +207,7 @@ export const MetaConfig = {
     creator: "@Future Solutions",
     title: "Future Solutions",
     description: "Software Development Company",
-    images: ["/favicon.png", "/images/fslogo.png"],
+    images: ["/favicon.png", "/Icons/512.png"],
   },
   openGraph: {
     type: "website",
@@ -225,7 +221,7 @@ export const MetaConfig = {
     siteName: "Future Solutions",
     images: [
       {
-        url: "/images/fslogo.png",
+        url: "/images/Icons/512.png",
       },
       {
         url: "/favicon.png",
