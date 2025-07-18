@@ -21,10 +21,9 @@ jobs:
       - name: 📦 Install dependencies
         run: yarn install
 
-      - name: 🔨 Build & Export
+      - name: 🔨 Build
         run: |
           yarn build
-          yarn export
 
       - name: 🚀 Deploy via SCP
         uses: appleboy/scp-action@master
